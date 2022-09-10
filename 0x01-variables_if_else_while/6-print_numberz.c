@@ -11,14 +11,12 @@
 int main(void)
 {
 	char num;
-	int n;
 
 	num = '0';
 
 	while (num <= '9')
 	{
 		putchar(num);
-		n = (int)(num);
 		num++;
 	}
 

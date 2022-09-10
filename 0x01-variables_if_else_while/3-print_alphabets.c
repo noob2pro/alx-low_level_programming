@@ -13,7 +13,7 @@ int main(void)
 	int ch, uc;
 
 	ch = 'a';
-	uc = 'A'
+	uc = 'A';
 
 	while (ch <= 'z')
 	{

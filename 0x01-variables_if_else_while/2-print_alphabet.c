@@ -18,7 +18,8 @@ int main(void)
 	{
 		putchar(ch);
 		putchar('\n');
-		getch();
+		ch++;
+		/*getch();*/
 	}
 
 	return (0);

@@ -17,10 +17,9 @@ int main(void)
 	while (ch <= 'z')
 	{
 		putchar(ch);
-		putchar('\n');
 		ch++;
-		/*getch();*/
 	}
 
+	putchar('\n');
 	return (0);
 }

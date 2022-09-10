@@ -11,6 +11,7 @@
 int main(void)
 {
 	char num;
+	int n;
 
 	num = '0';
 

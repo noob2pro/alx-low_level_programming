@@ -11,16 +11,15 @@
 */
 int main(void)
 {
-	char hex, j;
+	int num;
+	char letter;
 
-	j = 0x0f;
-	hex = 0x00;
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
-	while (hex <= j)
-	{
-		putchar(hex);
-		hex = hex + 0x01;
-	}
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
 
 	putchar('\n');
 

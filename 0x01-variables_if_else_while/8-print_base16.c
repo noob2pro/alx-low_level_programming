@@ -13,13 +13,13 @@ int main(void)
 {
 	char hex, j;
 
-	j = 0xF;
+	j = 0xf;
 	hex = 0x0;
 
 	while (hex <= j)
 	{
 		putchar(hex);
-		hex++;
+		hex = hex + 0x1;
 	}
 
 	putchar('\n');

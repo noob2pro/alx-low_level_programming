@@ -1,4 +1,4 @@
-include main.h
+#include main.h
 
 _putchar('_');
 _putchar('p');

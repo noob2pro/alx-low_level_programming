@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- *print_last_digit - prints last digit of integer input
- *@n: integer to modify
- *
- *Return: 0
+ *print_last_digit - prints the last digit of a number
+ *@n: number being tested
+ *Return: Always 0.
  *
 */
 
 int print_last_digit(int n)
 {
-	int l;
+	n = n % 10;
 
-	l = n % 10;
-	_putchar(l);
-
-	return (0);
+	if (n < 0)
+		n = -n;
+	_putchar(n + '0');
+	return (n);
 }
+

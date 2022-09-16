@@ -1,4 +1,4 @@
-#include "main.ch"
+#include "main.h"
 
 /**
  *print_triangle - prints a triangle .

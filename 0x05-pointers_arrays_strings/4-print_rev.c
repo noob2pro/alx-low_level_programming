@@ -29,7 +29,7 @@ void print_rev(char *s)
 	{
 		char tmp = *r_ptr;
 		*r_ptr-- = *s;
-		_putchar(s);
+		_putchar(*s);
 		*s++ = tmp;
 	}
 

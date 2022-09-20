@@ -20,7 +20,7 @@ void print_rev(char *s)
 */
 
 	char *r_ptr = s;
-	int i;
+	/*int i = 0;*/
 
 	while (*(r_ptr + 1) != '\0')
 		r_ptr++;
@@ -30,7 +30,8 @@ void print_rev(char *s)
 		char tmp = *r_ptr;
 		*r_ptr-- = *s;
 		*s++ = tmp;
-		 _putchar(s[i]);
+		 _putchar(s);
+		/* i++;*/
 	}
 
 }

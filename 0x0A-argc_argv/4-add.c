@@ -24,16 +24,16 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (i = 1; i <= argc -1; i++)
+	for (i = 1; i <= argc - 1; i++)
 	{
 		if (isdigit(*argv[i]) == 0)
 		{
 			printf("Error\n");
 			return (1);
 		}
-		
+
 		sum = sum + atoi(argv[i]);
-		
+
 	}
 
 	printf("%d\n", sum);

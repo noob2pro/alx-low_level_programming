@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * main -> adds positive numbers
+ * main - adds positive numbers
  * @argc: number of arguments passed
  * @argv: arguments received
  *
